@@ -130,7 +130,7 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	transition: 2s ease-in-out;
+	transition: 1s ease-in-out;
 	z-index: 100;
 }
 
@@ -159,8 +159,8 @@ body
 	opacity: 1;
 	pointer-events: auto;
 	transform: scale(1);
-	transition: 2s ease;
-	transition-delay: 2s;
+	transition: 1s ease;
+	transition-delay: 1s;
 }
 
 .quiz-box h1
@@ -246,7 +246,7 @@ body
 	color: rgba(255, 255, 255, .3);
 	font-weight: 600;
 	cursor: pointer;
-	pointer-events: none;
+	/*pointer-events: none;*/
 	transition: .5s;
 }
 

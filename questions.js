@@ -53,7 +53,7 @@ let questions = [
             "C. Extra Markup Language",
             "D. Extensible Markup Language"
         ]
-    }
+    },
 	{
         numb: 6,
         question: "What does XML stand for?",
@@ -64,7 +64,7 @@ let questions = [
             "C. Extra Markup Language",
             "D. Extensible Markup Language"
         ]
-    }
+    },
 	{
         numb: 7,
         question: "What does XML stand for?",
@@ -75,7 +75,7 @@ let questions = [
             "C. Extra Markup Language",
             "D. Extensible Markup Language"
         ]
-    }
+    },
 	{
         numb: 8,
         question: "What does XML stand for?",
@@ -86,7 +86,7 @@ let questions = [
             "C. Extra Markup Language",
             "D. Extensible Markup Language"
         ]
-    }
+    },
 	{
         numb: 9,
         question: "What does XML stand for?",
@@ -97,7 +97,7 @@ let questions = [
             "C. Extra Markup Language",
             "D. Extensible Markup Language"
         ]
-    }
+    },
 	{
         numb: 10,
         question: "What does XML stand for?",

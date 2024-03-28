@@ -6,4 +6,39 @@ startBtn.onclick = () =>
  {
 	quizSection.classList.add('active');
 	quizBox.classList.add('active');
+
+	showQuestions(0);
  }
+ 
+let questionCount = 0;
+
+const nextBtn = document.querySelector('.next-btn');
+
+nextBtn.onclick = () =>
+{
+	if(questionCount < questions.length - 1)
+	{
+        questionCount++;
+	    showQuestions(questionCount);
+	} 
+	else
+	{
+        console.log('Question Completed');
+	}
+	
+}
+
+const optionList = document.querySelector('.option-list')
+
+function showQuestions(index)
+{
+	const questionText = document.querySelector('.question-text');
+	questionText.textContent = `${questions[index].numb}. ${questions[index].question}`;
+    
+	let optionTag = `<div class="option"><span>${questions[index].options[0]}</span></div>
+	   <div class="option"><span>${questions[index].options[1]}</span></div>
+       <div class="option"><span>${questions[index].options[2]}</span></div>
+	   <div class="option"><span>${questions[index].options[3]}</span></div>`;
+
+	optionList.innerHTML = optionTag;
+}
