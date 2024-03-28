@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+	color: white;
+	overflow: hidden;
+}
+
+.header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 10%;
+	background: transparent;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+
+.logo
+{
+	font-size: 32px;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	filter: drop-shadow(0 0 5px #09001d);
+	letter-spacing: 1px;
+}
+
+.navbar a 
+{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a:active
+{
+	color: red;
+}
+
+.main
+{
+	min-height: 100vh;
+	background: url('background.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	pointer-events: auto;
+	transition: .3s ease;
+}
+
+.main:active{
+	pointer-events: none;
+}
+
+.container
+{
+	display: flex;
+    height: 100vh;
+	width: 200%; 
+}
+
+.home
+{
+	position: relative;
+	left: -50%;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home-content
+{
+	position: absolute;
+	top: 15%;
+	max-width: 1400px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.home-content h1
+{
+	font-size: 70px;
+	font-weight: 700;
+	text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+	margin-bottom: 25px;
+}
+
+.home-content .start-btn
+{
+	width: 190px;
+	height: 55px;
+	background: blue;
+	border: 2px solid #fff;
+	outline: none;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #kolor;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.home-content .start-btn:hover
+{
+    background: black;
+	box-shadow: none;
+}
+
+.quiz-section
+{
+	position: relative;
+	left: -30%;
+	width: 100%;
+	background: green;
+	transition: .8 ease-in-out;
+	z-index: 100;
+}
+
+.quiz-section:active
+{
+	left: 0;
+}
