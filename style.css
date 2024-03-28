@@ -150,6 +150,18 @@ body
 	display: flex;
 	flex-direction: column;
 	padding: 20px 30px;
+	opacity: 0;
+	pointer-events: none;
+	transform: scale(.9);
+}
+
+.quiz-section .quiz-box.active
+{
+	opacity: 1;
+	pointer-events: auto;
+	transform: scale(1);
+	transition: 2s ease;
+	transition-delay: 2s;
 }
 
 .quiz-box h1
