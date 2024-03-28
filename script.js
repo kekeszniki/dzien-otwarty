@@ -10,6 +10,7 @@ const goHomeBtn = document.querySelector('.goHome-btn');
 
 startBtn.onclick = () => {
 	quizSection.classList.add('active');
+	quizBox.classList.add('active');
 	
 	
 }
