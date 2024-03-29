@@ -2,6 +2,8 @@ const startBtn = document.querySelector('.start-btn');
 const quizSection = document.querySelector('.quiz-section');
 const quizBox = document.querySelector('.quiz-box');
 const resultBox = document.querySelector('.result-box');
+const tryAgainBtn = document.querySelector('.tryAgain-btn');
+const goHomeBtn = document.querySelector('.goHome-btn');
 
 startBtn.onclick = () =>
  {
@@ -12,7 +14,37 @@ startBtn.onclick = () =>
 	questionCounter(1);
 	headerScore();
  }
- 
+
+ tryAgainBtn.onclick = () =>
+ {
+	quizBox.classList.add('active');
+	nextBtn.classList.remove('active');
+	resultBox.classList.remove('active');
+
+	questionCount = 0;
+	questionNumb = 1;
+	userScore = 0;
+	showQuestions(questionCount);
+	questionCounter(questionNumb);
+
+	headerScore();
+ }
+
+goHomeBtn.onclick = () =>
+ {
+	quizSection.classList.remove('active');
+	nextBtn.classList.remove('active');
+	resultBox.classList.remove('active');
+
+	questionCount = 0;
+	questionNumb = 1;
+	userScore = 0;
+	showQuestions(questionCount);
+	questionCounter(questionNumb);
+
+	headerScore();
+ }
+
  let questionCount = 0;
  let questionNumb = 1;
  let userScore = 0;
@@ -90,10 +122,10 @@ startBtn.onclick = () =>
 	nextBtn.classList.add('active')
  }
 
- function questionCounter(index)
+function questionCounter(index)
 {
 	const questionTotal = document.querySelector('.question-total');
-	questionTotal.textContent = `${index} of ${questions.length} Questions`;
+	questionTotal.textContent = `${index} z ${questions.length} Pytań`;
 }
 
 function headerScore()
@@ -108,11 +140,11 @@ function showResultBox()
 	resultBox.classList.add('active');
 
 	const scoreText = document.querySelector('.score-text');
-	scoreText.textContent = `Twój wynik ${userScore} na ${questions.length}`;
+	scoreText.textContent = `Twój wynik to: ${userScore} na ${questions.length}`;
 
 	const circularProgress = document.querySelector('.circular-progress');
 	const progressValue = document.querySelector('.progress-value');
-	let progressStartValue = 0;
+	let progressStartValue = -1;
 	let progressEndValue = (userScore / questions.length) * 100;
 	let speed = 20;
 
@@ -121,7 +153,7 @@ function showResultBox()
 		progressStartValue++;
 
 		progressValue.textContent = `${progressStartValue}%`;
-		
+		circularProgress.style.background = `conic-gradient(#00008B ${progressStartValue * 3,6}deg, rgba(255, 255, 255, .1) 0deg)`;
 
 		if (progressStartValue == progressEndValue)
 		{
