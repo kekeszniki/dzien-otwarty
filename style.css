@@ -184,7 +184,7 @@ body
 
 .quiz-header span
 {
-	font-size:18px;
+	font-size:16px;
 	font-weight: 500;
 }
 
@@ -402,6 +402,7 @@ body
 
 .zdjecia
 {
+	opacity: 1;
 	margin-top: 15%;
 	float: left;
 	width: 70.0%;
@@ -412,6 +413,6 @@ body
 
 .zdjecia .zdjecie1
 {
-	margin-right: 100px;
-	margin-left: 100px;
+	margin-right: 90px;
+	margin-left: 90px;
 }

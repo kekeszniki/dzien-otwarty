@@ -1,112 +1,112 @@
 let questions = [
     {
         numb: 1,
-        question: "What does HTML stand for?",
-        answer: "C. Hyper Text Markup Language",
+        question: "",
+        answer: "C. ",
         options: [
-            "A. Hyper Type Multi Language",
-            "B. Hyper Text Multiple Language",
-            "C. Hyper Text Markup Language",
-            "D. Home Text Multi Language"
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
         ]
     },
     {
         numb: 2,
-        question: "What does CSS stand for?",
-        answer: "A. Cascading Style Sheet",
+        question: "",
+        answer: "A. ",
         options: [
-            "A. Cascading Style Sheet",
-            "B. Cute Style Sheet",
-            "C. Computer Style Sheet",
-            "D. Codehal Style Sheet"
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
         ]
     },
     {
         numb: 3,
-        question: "What does PHP stand for?",
-        answer: "A. Hypertext Preprocessor",
+        question: "",
+        answer: "A. ",
         options: [
-            "A. Hypertext Preprocessor",
-            "B. Hometext Programming",
-            "C. Hypertext Preprogramming",
-            "D. Programming Hypertext Preprocessor"
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
         ]
     },
     {
         numb: 4,
-        question: "What does SQL stand for?",
-        answer: "D. Structured Query Language",
+        question: "",
+        answer: "D. ",
         options: [
-            "A. Strength Query Language",
-            "B. Stylesheet Query Language",
-            "C. Science Question Language",
-            "D. Structured Query Language"
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
         ]
     },
     {
         numb: 5,
-        question: "What does XML stand for?",
-        answer: "D. Extensible Markup Language",
+        question: "",
+        answer: "D. ",
         options: [
-            "A. Excellent Multiple Language",
-            "B. Explore Multiple Language",
-            "C. Extra Markup Language",
-            "D. Extensible Markup Language"
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
         ]
     },
 	{
         numb: 6,
-        question: "What does XML stand for?",
-        answer: "D. Extensible Markup Language",
+        question: "",
+        answer: "D. ",
         options: [
-            "A. Excellent Multiple Language",
-            "B. Explore Multiple Language",
-            "C. Extra Markup Language",
-            "D. Extensible Markup Language"
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
         ]
     },
 	{
         numb: 7,
-        question: "What does XML stand for?",
-        answer: "D. Extensible Markup Language",
+        question: "",
+        answer: "D. ",
         options: [
-            "A. Excellent Multiple Language",
-            "B. Explore Multiple Language",
-            "C. Extra Markup Language",
-            "D. Extensible Markup Language"
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
         ]
     },
 	{
         numb: 8,
-        question: "What does XML stand for?",
-        answer: "D. Extensible Markup Language",
+        question: "",
+        answer: "D. ",
         options: [
-            "A. Excellent Multiple Language",
-            "B. Explore Multiple Language",
-            "C. Extra Markup Language",
-            "D. Extensible Markup Language"
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
         ]
     },
 	{
         numb: 9,
-        question: "What does XML stand for?",
-        answer: "D. Extensible Markup Language",
+        question: "",
+        answer: "D. ",
         options: [
-            "A. Excellent Multiple Language",
-            "B. Explore Multiple Language",
-            "C. Extra Markup Language",
-            "D. Extensible Markup Language"
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
         ]
     },
 	{
         numb: 10,
-        question: "What does XML stand for?",
-        answer: "D. Extensible Markup Language",
+        question: "",
+        answer: "D. ",
         options: [
-            "A. Excellent Multiple Language",
-            "B. Explore Multiple Language",
-            "C. Extra Markup Language",
-            "D. Extensible Markup Language"
+            "A. ",
+            "B. ",
+            "C. ",
+            "D. "
         ]
     }
 ];
