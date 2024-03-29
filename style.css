@@ -403,20 +403,8 @@ body
 .zdjecia
 {
 	position: static;
-}
-
-.zdjecia .zdjecia1
-{
-
-}
-
-.zdjecia .zdjecia2
-{
-	
-
-}
-
-.zdjecia .zdjecia3
-{
-
+	margin-top: 30px;
+	float: left;
+	width: 20.0%;
+	text-align: center;
 }
