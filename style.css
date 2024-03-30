@@ -267,7 +267,7 @@ body
 	color: rgba(255, 255, 255, .3);
 	font-weight: 600;
 	cursor: pointer;
-	/*pointer-events: none;*/
+	pointer-events: none;
 	transition: .5s;
 }
 
@@ -275,6 +275,7 @@ body
 {
 	background: #00008B;
 	border-color: #00008B;
+	pointer-events: auto;
 }
 
 .quiz-footer .next-btn.active
