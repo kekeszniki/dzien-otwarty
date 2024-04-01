@@ -46,7 +46,7 @@ let questions = [
     {
         numb: 5,
         question: "",
-        answer: "D. ",
+        answer: "B. ",
         options: [
             "A. ",
             "B. ",
@@ -57,7 +57,7 @@ let questions = [
 	{
         numb: 6,
         question: "",
-        answer: "D. ",
+        answer: "C. ",
         options: [
             "A. ",
             "B. ",
@@ -68,7 +68,7 @@ let questions = [
 	{
         numb: 7,
         question: "",
-        answer: "D. ",
+        answer: "A. ",
         options: [
             "A. ",
             "B. ",
@@ -90,7 +90,7 @@ let questions = [
 	{
         numb: 9,
         question: "",
-        answer: "D. ",
+        answer: "C. ",
         options: [
             "A. ",
             "B. ",
@@ -101,7 +101,7 @@ let questions = [
 	{
         numb: 10,
         question: "",
-        answer: "D. ",
+        answer: "B. ",
         options: [
             "A. ",
             "B. ",
