@@ -1,1 +1,2 @@
-# dni-otwart
+# dzień-otwarty
+created by kekeszniki
