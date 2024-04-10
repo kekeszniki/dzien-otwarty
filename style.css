@@ -60,7 +60,7 @@ body
 	background-position: center;
 	pointer-events: auto;
 	transition: .3s ease;
- min-width: 1000px;
+ min-width: 50%;
 }
 
 .container
