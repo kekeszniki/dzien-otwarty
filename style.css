@@ -54,7 +54,6 @@ body
 
 .main
 {
-	min-height: 300vh;
 	background: url('photos/background.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
