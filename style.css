@@ -54,13 +54,12 @@ body
 
 .main
 {
-	min-height: 400px;
+	min-height: 300vh;
 	background: url('photos/background.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 	pointer-events: auto;
 	transition: .3s ease;
- min-width: 50%;
 }
 
 .container
