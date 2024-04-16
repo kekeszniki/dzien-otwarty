@@ -45,35 +45,35 @@ let questions = [
     },
     {
         numb: 5,
-        question: "",
-        answer: "B. ",
+        question: "Najpopularniejszym w Polsce systemem operacyjnym wykorzystywanym w komputerach jest:",
+        answer: "B. Windows",
         options: [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Linux",
+            "B. Windows",
+            "C. IOS",
+            "D. Android"
         ]
     },
 	{
         numb: 6,
-        question: "",
-        answer: "C. ",
+        question: "1 bajt to:",
+        answer: "C. 8 bitów",
         options: [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. 2 bity",
+            "B. 8 MegaBajtów",
+            "C. 8 bitów",
+            "D. 4 bity"
         ]
     },
 	{
         numb: 7,
-        question: "",
-        answer: "A. ",
+        question: "Co to jest " .zip " ?",
+        answer: "A. rozszerzenie pliku do tworzenia archiwum",
         options: [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. rozszerzenie pliku do tworzenia archiwum",
+            "B. rozszerzenie pliku dźwięku",
+            "C. rozszerzenie pliku obrazka",
+            "D. specjalne rozszerzenie dostepne tylko na Linuxie"
         ]
     },
 	{
