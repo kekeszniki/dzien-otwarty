@@ -92,10 +92,10 @@ let questions = [
         question: "W jakim jezyku programowania można zdać mature?",
         answer: "B. W Pythonie lub C++",
         options: [
-            "A. W C++",
-            "B. W Pythonie lub C++",
-            "C. W Pythonie ",
-            "D. W żadnym z powyższych"
+            "A. 2 bity",
+            "B. 8 bitów",
+            "C. 1 mB",
+            "D. 4 bity"
         ]
     }
 ];
