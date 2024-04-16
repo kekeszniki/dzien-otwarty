@@ -23,13 +23,13 @@ let questions = [
     },
     {
         numb: 3,
-        question: "",
-        answer: "A. ",
+        question: "Programem graficznym nie jest:",
+        answer: "A. notepad++",
         options: [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. notepad++",
+            "B. Paint",
+            "C. Gimp",
+            "D. Adobe Photoshop"
         ]
     },
     {
