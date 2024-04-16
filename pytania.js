@@ -24,7 +24,7 @@ let questions = [
     {
         numb: 3,
         question: "Programem graficznym nie jest:",
-        answer: "A. notepad++",
+        answer: "A. Notepad++",
         options: [
             "A. Notepad++",
             "B. Paint",
@@ -35,7 +35,7 @@ let questions = [
     {
         numb: 4,
         question: "Najmniejszy element obrazu wyświetlanego na monitorze komputera, nazywany jest:",
-        answer: "D. pikselem",
+        answer: "D. Pikselem",
         options: [
             "A. RGB",
             "B. Mapą bitową",
@@ -56,18 +56,7 @@ let questions = [
     },
 	{
         numb: 6,
-        question: "1 bajt to:",
-        answer: "C. 8 bitów",
-        options: [
-            "A. 2 bity",
-            "B. 8 MegaBajtów",
-            "C. 8 bitów",
-            "D. 4 bity"
-        ]
-    },
-	{
-        numb: 7,
-        question: "Co to jest " .zip " ?",
+        question: "Co to jest ".zip" ?",
         answer: "A. rozszerzenie pliku do tworzenia archiwum",
         options: [
             "A. Rozszerzenie pliku do tworzenia archiwum",
@@ -77,7 +66,7 @@ let questions = [
         ]
     },
 	{
-        numb: 8,
+        numb: 7,
         question: "1 MB to:",
         answer: "D. 1024 kB",
         options: [
@@ -88,7 +77,7 @@ let questions = [
         ]
     },
 	{
-        numb: 9,
+        numb: 8,
         question: "Skrót WAN oznacza:",
         answer: "C. rozległą sieć komputerową",
         options: [
@@ -99,7 +88,7 @@ let questions = [
         ]
     },
 	{
-        numb: 10,
+        numb: 9,
         question: "W jakim jezyku programowania można zdać mature?",
         answer: "B. W Pythonie lub C++",
         options: [
