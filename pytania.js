@@ -1,13 +1,13 @@
 let questions = [
     {
         numb: 1,
-        question: "",
-        answer: "C. ",
+        question: "Czy lubisz dostawać zadania domowe na weekend?",
+        answer: "C. Kocham ",
         options: [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Lubie",
+            "B. Nienawidze",
+            "C. Kocham",
+            "D. Nie lubie"
         ]
     },
     {
