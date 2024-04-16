@@ -2,7 +2,7 @@ let questions = [
     {
         numb: 1,
         question: "Czy lubisz dostawać zadania domowe na weekend?",
-        answer: "C. Kocham ",
+        answer: "C. Kocham",
         options: [
             "A. Lubie",
             "B. Nienawidze",
