@@ -56,7 +56,7 @@ let questions = [
     },
 	{
         numb: 6,
-        question: "Co to jest ".zip" ?",
+        question: "Co to jest .zip ?",
         answer: "A. rozszerzenie pliku do tworzenia archiwum",
         options: [
             "A. Rozszerzenie pliku do tworzenia archiwum",
