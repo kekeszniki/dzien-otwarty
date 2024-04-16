@@ -12,13 +12,13 @@ let questions = [
     },
     {
         numb: 2,
-        question: "",
-        answer: "A. ",
+        question: "Ile wynosi liczba Pi?",
+        answer: "A. 3,14",
         options: [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. 3,14",
+            "B. 2",
+            "C. 2,87",
+            "D. 3,24"
         ]
     },
     {
