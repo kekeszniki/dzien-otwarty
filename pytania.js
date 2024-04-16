@@ -26,7 +26,7 @@ let questions = [
         question: "Programem graficznym nie jest:",
         answer: "A. notepad++",
         options: [
-            "A. notepad++",
+            "A. Notepad++",
             "B. Paint",
             "C. Gimp",
             "D. Adobe Photoshop"
@@ -38,9 +38,9 @@ let questions = [
         answer: "D. pikselem",
         options: [
             "A. RGB",
-            "B. mapą bitową",
-            "C. grafiką",
-            "D. pikselem"
+            "B. Mapą bitową",
+            "C. Grafiką",
+            "D. Pikselem"
         ]
     },
     {
@@ -70,43 +70,43 @@ let questions = [
         question: "Co to jest " .zip " ?",
         answer: "A. rozszerzenie pliku do tworzenia archiwum",
         options: [
-            "A. rozszerzenie pliku do tworzenia archiwum",
-            "B. rozszerzenie pliku dźwięku",
-            "C. rozszerzenie pliku obrazka",
-            "D. specjalne rozszerzenie dostepne tylko na Linuxie"
+            "A. Rozszerzenie pliku do tworzenia archiwum",
+            "B. Rozszerzenie pliku dźwięku",
+            "C. Rozszerzenie pliku obrazka",
+            "D. Specjalne rozszerzenie dostepne tylko na Linuxie"
         ]
     },
 	{
         numb: 8,
-        question: "",
-        answer: "D. ",
+        question: "1 MB to:",
+        answer: "D. 1024 kB",
         options: [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. 1000 kB",
+            "B. 1024 KB",
+            "C. 1024 kb",
+            "D. 1024 kB"
         ]
     },
 	{
         numb: 9,
-        question: "",
-        answer: "C. ",
+        question: "Skrót WAN oznacza:",
+        answer: "C. rozległą sieć komputerową",
         options: [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. Prywatną sieć komputerową",
+            "B. Lokalną sieć komputerową",
+            "C. Rozległą sieć komputerową",
+            "D. Taki skrót nie istnieje"
         ]
     },
 	{
         numb: 10,
-        question: "",
-        answer: "B. ",
+        question: "W jakim jezyku programowania można zdać mature?",
+        answer: "B. W Pythonie lub C++",
         options: [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. W C++",
+            "B. W Pythonie lub C++",
+            "C. W Pythonie ",
+            "D. W żadnym z powyższych"
         ]
     }
 ];
