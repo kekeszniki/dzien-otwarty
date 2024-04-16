@@ -79,7 +79,7 @@ let questions = [
 	{
         numb: 8,
         question: "Skrót WAN oznacza:",
-        answer: "C. rozległą sieć komputerową",
+        answer: "C. Rozległą sieć komputerową",
         options: [
             "A. Prywatną sieć komputerową",
             "B. Lokalną sieć komputerową",
