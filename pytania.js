@@ -34,13 +34,13 @@ let questions = [
     },
     {
         numb: 4,
-        question: "",
-        answer: "D. ",
+        question: "Najmniejszy element obrazu wyświetlanego na monitorze komputera, nazywany jest:",
+        answer: "D. pikselem",
         options: [
-            "A. ",
-            "B. ",
-            "C. ",
-            "D. "
+            "A. RGB",
+            "B. mapą bitową",
+            "C. grafiką",
+            "D. pikselem"
         ]
     },
     {
